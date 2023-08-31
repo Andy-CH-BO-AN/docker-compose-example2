@@ -1,0 +1,8 @@
+services:
+  counter:
+    build:
+      dockerfile: Dockerfile
+    command:
+      - python3
+      - main.py
+    container_name: count_nums
